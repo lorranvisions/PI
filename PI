@@ -1,0 +1,28 @@
+package pi;
+
+import java.util.Scanner;
+
+public class PI {
+
+    public static void main(String[] args) {
+        Scanner jogador = new Scanner(System.in);
+       
+       
+        int escolha = jogador.nextInt();
+        if (escolha == 3) {
+        String [] inventario = new String[4];
+        inventario [0] = "vazio";
+        inventario [1] = "vazio";
+        inventario [2] = "vazio";
+        inventario [3] = "vazio";
+        System.out.println("Inventário:");
+        System.out.println("1 - "+inventario[0]);
+        System.out.println("2 - "+inventario[1]);
+        System.out.println("3 - "+inventario[2]);
+        System.out.println("4 - "+inventario[3]);
+        
+        }
+       
+    }
+
+}
